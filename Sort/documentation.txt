@@ -1,0 +1,24 @@
+In terminal(folder_root/):
+    mkdir Sort
+    cd Sort
+    npm init -y
+    npm install express 
+
+Structure of folder Sort:
+    Sort/
+    │
+    ├── public/
+    │   ├── index.html
+    │   ├── styles.css
+    │   ├── script.js
+    │
+    ├── app.js
+    ├── sortAlgorithms.js
+    ├── node_modules/
+    ├── package.json
+    └── package-lock.json
+
+In terminal(folder_root/Sort) :
+    node app.js
+
+Your application will be accessible at http://localhost:3000

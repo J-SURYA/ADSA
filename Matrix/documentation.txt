@@ -1,0 +1,26 @@
+In terminal(folder_root/):
+    mkdir Matrix
+    cd Matrix
+    npm init -y
+    npm install express ejs body-parser
+
+Structure of folder Matrix: 
+    Matrix/
+    │
+    ├── app.js
+    ├── matrix-chain.js
+    ├── views/
+    │   ├── index.ejs
+    │
+    ├── public/
+    │   ├── styles.css
+    │
+    ├── node_modules/
+    ├── package.json
+    └── package-lock.json
+
+
+In terminal(folder_root/Matrix) : 
+    node app.js
+
+Your application will be accessible at http://localhost:3000

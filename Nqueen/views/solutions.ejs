@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N-Queens Solutions</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>N-Queens Solutions</h1>
+    <form action="/solve" method="POST">
+        <label for="n">Enter N:</label>
+        <input type="number" id="n" name="n" required>
+        <button type="submit">Solve</button>
+    </form>
+
+    <% if (solutions) { %>
+        <h2>Solutions for N = <%= n %></h2>
+        <% solutions.forEach((solution, index) => { %>
+            <h3>Solution <%= index + 1 %></h3>
+            <pre>
+                <% solution.forEach(row => { %>
+                    <%= row %>
+                <% }); %>
+            </pre>
+        <% }); %>
+    <% } %>
+</body>
+</html>

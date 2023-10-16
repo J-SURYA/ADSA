@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+    <h1>Sorting Visualizer</h1>
+    <form id="sortingForm">
+        <label for="array">Array (comma-separated):</label>
+        <input type="text" id="array" name="array" required>
+        <br>
+        <label for="sortMethod">Sorting Method:</label>
+        <select id="sortMethod" name="sortMethod">
+            <option value="bubble">Bubble Sort</option>
+            <option value="selection">Selection Sort</option>
+            <option value="insertion">Insertion Sort</option>
+        </select>
+        <br>
+        <button type="submit">Sort</button>
+    </form>
+    <div id="steps"></div>
+    <script src="/script.js"></script>
+</body>
+</html>

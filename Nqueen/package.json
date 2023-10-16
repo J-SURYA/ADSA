@@ -1,0 +1,16 @@
+{
+  "name": "nqueens",
+  "version": "1.0.0",
+  "description": "N-Queens Problem Solver",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
